@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+    background-color: #89A8B2
+}
+
+h1 {
+    font-size: 5rem;
+    color: #E5E1DA;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 3px 0 #F1F0E8;
+}
+
+footer {
+    color: #E5E1DA;
+    font-family: sans-serif;
+}
+
+.set {
+    margin: 10% auto;  /* 垂直方向父元素的10%，水平方向自动居中*/
+}
+
+.note {
+    outline: none; /* 移除默认的焦点边框效果 */
+    border: 10px solid #404b69; /* 设置边框样式 */
+
+    /* 设置字体属性 */
+    font-size: 5rem;           /* 字体大小 */
+    font-family: "Arvo", cursive; /* 字体样式 */
+    line-height: normal;            /* 行高 */
+    font-weight: 300;          /* 字体粗细 */
+    color: #da0463;            /* 字体颜色 */
+    text-shadow: 3px 0 #dbedf3; /* 文字阴影效果 */
+    border-radius: 15px;   /* 设置边框圆角 */
+    display: inline-block;  /* 设置为块状元素，并允许与其他元素并排 */
+
+    /*  设置元素宽度和高度 */
+    width: 150px;
+    height: 150px;
+
+    /* 设置文字对齐方式， 原来text-align: center;*/
+    text-align: left;          /* 文字水平靠左对齐 */
+    vertical-align: top;       /* 文字垂直靠上对齐 */
+    margin: 10px;   /* 设置元素的外边距 */
+    background-color: white;  /* 设置背景颜色 */
+}
+
+
+.d {
+    background-image: url(./7pic/dou.jpg);
+    background-size: cover;               /* 图片自动缩放，覆盖整个容器 */
+    background-position: center;          /* 居中显示 */
+    /* 添加半透明的背景覆盖效果 */
+    background-color: rgba(255, 255, 255, 0.4); /* 白色不透明度 0.6 */
+    background-blend-mode: overlay;             /* 图片与背景颜色混合 */
+}
+
+.r {
+    background-image: url(./7pic/re.png);
+    background-size: cover; 
+    background-position: center; 
+    filter: invert(1); /* 将黑色变为白色，白色变为黑色 */
+    background-color: rgba(255, 255, 255, 0.4); 
+    background-blend-mode: overlay;           
+}
+
+.m {
+    background-image: url(./7pic/mi.png);
+    background-size: cover; 
+    background-position: center; 
+    background-color: rgba(255, 255, 255, 0.4); 
+    background-blend-mode: overlay;  
+}
+
+.f {
+    background-image: url(./7pic/fa.png);
+    background-size: cover; 
+    background-position: center; 
+    background-color: rgba(255, 255, 255, 0.4); 
+    background-blend-mode: overlay;  
+}
+
+.s {
+    background-image: url(./7pic/so.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-color: rgba(255, 255, 255, 0.4); 
+    background-blend-mode: overlay;  
+}
+
+.l {
+    background-image: url(./7pic/la.jpg);
+    background-size: cover; 
+    background-position: center; 
+    filter: invert(1);
+    background-color: rgba(255, 255, 255, 0.4); 
+    background-blend-mode: overlay;  
+}
+
+.t {
+    background-image: url(./7pic/ti.png);
+    background-size: cover; 
+    background-position: center; 
+    background-color: rgba(255, 255, 255, 0.4); 
+    background-blend-mode: overlay;  
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
+}
+
+/* 
+  设置元素的阴影效果:
+  - `0`：水平偏移量 (0px)，表示阴影不会左右移动。
+  - `3px`：垂直偏移量 (3px)，表示阴影会向下偏移 3px。
+  - `4px`：模糊半径 (4px)，阴影边缘的模糊程度，值越大阴影越模糊。
+  - `0`：扩展半径 (0px)，表示阴影不会扩展。
+  - `#dbedf3`：阴影的颜色，浅蓝色，用于产生柔和的阴影效果。
+  - opacity 不透明度
+*/
